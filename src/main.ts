@@ -13,3 +13,7 @@ const game = new Game({
     },
   },
 });
+
+if (!game.isPaused) {
+  console.log('Game is running!');
+}
